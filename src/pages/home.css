@@ -1,0 +1,104 @@
+.hero-section{
+    height: 100vh;
+    background-image: url("./home/images/hero-img-pizza.webp");
+    background-size: 100% 100%;
+}
+
+.hero-section > div{
+    color: white;
+    backdrop-filter: blur(5px);
+}
+
+.stats-section{
+    background-color: #13ad7b;
+}
+
+.reviews-section{
+    background-color: #334858;
+}
+
+.gallery-section img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.gallery-section{
+    margin-top: 80px;
+}
+
+.gallery-section h1{
+    color: #13ad7b;
+}
+
+.gallery-description{
+    z-index: 1;
+    background-color: white;
+    height: fit-content;
+}
+
+.gallery-section .image2{
+    position: relative;
+    top: -180px;
+    
+}
+
+.footer{
+    height: 400px;
+    /*background-image: url("./home/images/brick.webp");*/
+    background-color: #131313;
+}
+
+.footer h1{
+    font-size: 70px;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 60px 50px;
+    background-color: #334858;
+}
+
+.footer .lunch{
+    position: relative;
+    top: -25px;
+}
+
+.footer .timing{
+    background-color: #1d1d1d;
+    
+    color: white;
+    border-radius: 4px;
+    
+    height: 65%;
+}
+
+.footer .times{
+    color: #13ad7b;
+}
+
+.footer .contact{
+    background-color: #1d1d1d;
+    height: 65%;
+    border-radius: 4px;
+    
+}
+
+.footer i{
+    color: #13ad7b;
+    margin: 12px 0;
+    
+}
+
+.footer i span{
+    color: white;
+}
+
+.footer .social i{
+    font-size: 29px;
+}
+
+.footer .map{
+    height: 65%;
+    background-image: url("./home/images/map.png");
+    background-size: 100% 100%;
+    border-radius: 4px;
+    
+}

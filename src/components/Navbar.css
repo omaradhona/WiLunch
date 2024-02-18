@@ -1,0 +1,58 @@
+@media screen and (max-width: 576px){
+    nav{
+        flex-direction: column;
+        
+    }
+    nav .nav-links{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid white;
+    }
+    nav .nav-links a{
+        padding: 10px;
+        margin: 0;
+    }
+    .menu-btn{
+        visibility: visible;
+    }
+}
+
+@media screen and (min-width: 576px){
+    
+    
+    .menu-btn{
+        visibility: hidden;
+    }
+}
+
+
+
+nav{
+    align-items: stretch;
+    background-color: #334858;
+    color: white;
+    
+}
+
+.lunch{
+    color: #13ad7b;
+}
+
+nav a{
+    padding: 16px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+}
+
+
+nav a:hover{
+    background-color: #13ad7b;
+}
+
+.menu-btn{
+    top: 0;
+    right: 20px;
+    cursor: pointer;
+}

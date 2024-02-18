@@ -1,0 +1,11 @@
+.reviews-container{
+    height: 200px;
+}
+
+.carousel-item p{
+    color: white;
+}
+
+.carousel-item h3{
+    color: #13ad7b;
+}

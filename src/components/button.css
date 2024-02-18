@@ -1,0 +1,8 @@
+.custom-button{
+    background-color: #13ad7b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(65, 63, 63, 0.2), 0 6px 20px 0 rgba(73, 73, 73, 0.19);
+}

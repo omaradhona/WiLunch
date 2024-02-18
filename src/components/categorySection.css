@@ -1,0 +1,8 @@
+.categories-section{
+    background-color: #13ad7b;
+}
+
+.categories-section .non-active-divs:hover{
+    background-color: #4ee6b667;
+    
+}
