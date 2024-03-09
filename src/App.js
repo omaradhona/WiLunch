@@ -5,11 +5,7 @@ import { Menu } from './pages/Menu';
 import { About } from './pages/About';
 import './App.css';
 
-
 function App() {
-  
-  
-
   return (
     <>
       <Navbar />
@@ -21,7 +17,6 @@ function App() {
         <Route path="/pages/About" element={<About />} />
       </Routes>
     </>
-    
   );
 }
 

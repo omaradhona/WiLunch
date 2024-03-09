@@ -4,7 +4,6 @@ export function Slider(){
     return (
         <>
             <div id="demo" className="carousel slide" data-bs-ride="carousel">
-                
                 <div className="carousel-inner container-fluid">
                     <div className="carousel-item active py-5">
                         <div className="col-6 offset-3 text-center">
@@ -32,7 +31,6 @@ export function Slider(){
                     </div>
                 </div>
 
-                
                 <button className="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
                     <span className="carousel-control-prev-icon"></span>
                 </button>

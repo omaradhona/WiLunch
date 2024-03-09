@@ -39,7 +39,6 @@
 .gallery-section .image2{
     position: relative;
     top: -180px;
-    
 }
 
 .footer{
@@ -63,10 +62,8 @@
 
 .footer .timing{
     background-color: #1d1d1d;
-    
     color: white;
     border-radius: 4px;
-    
     height: 65%;
 }
 
@@ -78,7 +75,6 @@
     background-color: #1d1d1d;
     height: 65%;
     border-radius: 4px;
-    
 }
 
 .footer i{
@@ -100,5 +96,4 @@
     background-image: url("./home/images/map.png");
     background-size: 100% 100%;
     border-radius: 4px;
-    
 }

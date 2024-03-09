@@ -55,9 +55,9 @@ export function Home(){
                     infoTwo="Clients"
                 />
                 <Stat
-                    number="+6"
-                    infoOne="Lorem"
-                    infoTwo="Ipsum"
+                    number="15"
+                    infoOne="4-Seats"
+                    infoTwo="Tables"
                 />
             </div>
             <div className="container-fluid reviews-section pt-5">
@@ -68,7 +68,7 @@ export function Home(){
             <div className="container gallery-section d-flex flex-column">
                 <div className="col-sm-12 d-flex">
                     <div className="col-sm-4">
-                        <img src={galleryImage1} />
+                        <img src={galleryImage1} alt="" />
                     </div>
                     <div className="col-sm-8 gallery-description">
                         <div className="p-5">
@@ -80,12 +80,11 @@ export function Home(){
                     </div>
                 </div>
                 <div className="col-sm-8 offset-sm-2 image2">
-                    <img src={food} />
+                    <img src={food} alt="" />
                 </div>
             </div>
 
             <div className="container-fluid footer d-flex justify-content-around px-5">
-                
                 <div className="col-sm-3 h-100 d-flex justify-content-center">
                     <div className="align-self-center d-flex justify-content-center flex-column timing p-3 w-100">
                         <div className="d-flex justify-content-between">
@@ -132,15 +131,13 @@ export function Home(){
                             <i className="fa-brands fa-square-google-plus"></i>
                             <i className="fa-brands fa-square-x-twitter"></i>
                         </div>
-                    </div>
-                    
-                        
+                    </div> 
                 </div>
+
                 <div className="col-sm-3 d-flex flex-column">
                     <div className="map my-auto"></div>
                 </div>
             </div>
-
         </>
     )
 }
