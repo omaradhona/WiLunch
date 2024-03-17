@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-family: lato;
+}
+
 .hero-section{
     height: 100vh;
     background-image: url("./home/images/hero-img-pizza.webp");
@@ -80,11 +86,11 @@
 .footer i{
     color: #13ad7b;
     margin: 12px 0;
-    
 }
 
 .footer i span{
     color: white;
+    font-family: lato;
 }
 
 .footer .social i{

@@ -121,10 +121,10 @@ export function Home(){
                     <h3 className="text-white ms-3 mb-4">Contact</h3>
                     <div className="align-self-center px-3">
                         <i className="fa-solid fa-location-dot">
-                            <span className="ps-3">5 Maisons, Mohammadia</span>
+                            <span className="ps-3 h5">5 Maisons, Mohammadia</span>
                         </i>
                         <i className="fa-solid fa-phone">
-                            <span className="ps-3">0562 63 73 97</span>
+                            <span className="ps-3 h5">0562 63 73 97</span>
                         </i>
                         <div className="d-flex justify-content-around social">
                             <i className="fa-brands fa-square-facebook"></i>
